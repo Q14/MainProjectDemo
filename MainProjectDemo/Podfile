@@ -1,0 +1,27 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+#open source
+source 'https://github.com/CocoaPods/Specs.git'
+#our company
+source 'git@git.wanmeizhensuo.com:gengmeiios/GMSpecs.git'
+
+target 'MainProjectDemo' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for MainProjectDemo
+	pod 'GMRouter',  '0.0.1'
+  target 'MainProjectDemoTests' do
+    inherit! :search_paths
+
+	
+    # Pods for testing
+  end
+
+  target 'MainProjectDemoUITests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+end
