@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  ModuleAController.h
 //  MainProjectDemo
 //
 //  Created by Q14 on 2019/12/2.
@@ -8,9 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+NS_ASSUME_NONNULL_BEGIN
 
-@property (weak, nonatomic) IBOutlet UIButton *btn;
+@interface ModuleAController : UIViewController
 
 @end
 
+NS_ASSUME_NONNULL_END
