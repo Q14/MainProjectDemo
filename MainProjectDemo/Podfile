@@ -10,9 +10,9 @@ target 'MainProjectDemo' do
   use_frameworks!
 
   # Pods for MainProjectDemo
-  pod 'QJRouter', :path => '../../QJRouter'
+  #pod 'QJRouter' , :path => '../../QJRouter'
 
-#	pod 'QJRouter',  '0.0.5'
+	pod 'QJRouter',  '0.0.6'
   target 'MainProjectDemoTests' do
     inherit! :search_paths
 
