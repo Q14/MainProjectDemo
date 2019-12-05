@@ -12,7 +12,7 @@ target 'MainProjectDemo' do
   # Pods for MainProjectDemo
   #pod 'QJRouter' , :path => '../../QJRouter'
 
-	pod 'QJRouter',  '0.0.6'
+	pod 'QJRouter',  '0.0.7'
   target 'MainProjectDemoTests' do
     inherit! :search_paths
 
