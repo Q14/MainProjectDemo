@@ -2,17 +2,17 @@
 # platform :ios, '9.0'
 
 source 'https://github.com/CocoaPods/Specs.git'
-#source 'https://github.com/Q14/PrivateSpecs.git'
-#source 'git@github.com:Q14/PrivateSpecs.git'
+#source 'https://github.com/Q14/PrivateSpecs.git' 私有仓库地址
+#source 'git@github.com:Q14/PrivateSpecs.git' 私有仓库地址
 
 target 'MainProjectDemo' do
   # Comment the next line if you don't want to use dynamic frameworks
   use_frameworks!
 
   # Pods for MainProjectDemo
-  #pod 'QJRouter' , :path => '../../QJRouter'
+  pod 'QJRouter' , :path => '../../QJRouter'
 
-	pod 'QJRouter',  '0.0.7'
+#	pod 'QJRouter',  '0.0.7'
   target 'MainProjectDemoTests' do
     inherit! :search_paths
 
